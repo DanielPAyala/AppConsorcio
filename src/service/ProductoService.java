@@ -13,5 +13,21 @@ public class ProductoService {
 	public List<ProductoDTO> listaProducto(){
 		return objPro.listarProductos();
 	}
+	
+	public ProductoDTO buscarProducto(int cod) {
+		return objPro.buscarProducto(cod);
+	}
+	
+	public int registrarProducto(ProductoDTO obj) {
+		return objPro.registrarProducto(obj);
+	}
+	
+	public int actualizarProducto(ProductoDTO obj) {
+		return objPro.actualizarProducto(obj);
+	}
+	
+	public int eliminarProducto(int cod) {
+		return objPro.eliminarProducto(cod);
+	}
 
 }
