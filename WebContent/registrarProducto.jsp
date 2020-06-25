@@ -1,3 +1,4 @@
+<jsp:include page="validar.jsp"></jsp:include>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -7,6 +8,7 @@
 <title>Registrar Producto</title>
 </head>
 <body>
+<jsp:include page="encabezado.jsp"></jsp:include>
 	<form action="ServletProducto?tipo=registrar" method="post">
 		<table align="center">
 			<tr>

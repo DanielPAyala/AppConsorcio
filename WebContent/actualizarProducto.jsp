@@ -1,3 +1,4 @@
+<jsp:include page="validar.jsp"></jsp:include>
 <%@page import="beans.ProductoDTO"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -9,6 +10,7 @@
 <title>Actualizar Producto</title>
 </head>
 <body>
+<jsp:include page="encabezado.jsp"></jsp:include>
 <%
 	ProductoDTO obj = (ProductoDTO)request.getAttribute("Producto");
 %>

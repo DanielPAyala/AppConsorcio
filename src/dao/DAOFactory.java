@@ -1,5 +1,6 @@
 package dao;
 
+import interfaces.EmpleadoDAO;
 import interfaces.ProductoDAO;
 
 public abstract class DAOFactory {
@@ -12,6 +13,7 @@ public abstract class DAOFactory {
 	
 	// registramos nuestros DAO's
 	public abstract ProductoDAO getProducto();
+	public abstract EmpleadoDAO getEmpleado();
 	
 	public static DAOFactory getDAOFactory(int whichFactory) {
 		switch (whichFactory) {

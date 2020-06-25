@@ -10,6 +10,6 @@
 	<a href="ServletProducto?tipo=listar">Listar</a>
 	<a href="registrarProducto.jsp">Nuevo</a>
 	<a href="registrarBoleta.jsp">Boleta</a>
-	<a href="ServletProducto?tipo=cerrarSesion">Cerrar Sesion</a>
+	<a href="ServletEmpleado?tipo=cerrarSesion">Cerrar Sesion</a>
 </body>
 </html>
